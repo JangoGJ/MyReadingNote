@@ -1,0 +1,35 @@
+                       ____
+                    _.' :  `._
+                .-.'`.  ;   .'`.-.
+       __      / : ___\ ;  /___ ; \      __    Release, we did. We know,
+     ,'_ ""--.:__;".-.";: :".-.":__;.--"" _`,   it's been a while. But we
+     :' `.t""--.. '<@.`;_  ',@>` ..--""j.' `;   are back with a new
+          `:-.._J '-.-'L__ `-- ' L_..-;'        release for you! Now before
+            "-.__ ;  .-"  "-.  : __.-"          clicking on the issues link
+                L ' /.------.\ ' J              above because you can't
+                 "-.   "--"   .-"               wait, please read this :)
+                __.l"-:_JL_;-";.__
+             .-j/'.;  ;""""  / .'\"-.           This is the official CFP
+           .' /:`. "-.:     .-" .';  `.         for P70. Phrack is an
+        .-"  / ;  "-. "-..-" .-"  :    "-.      underground zine, from
+     .+"-.  : :      "-.__.-"      ;-._   \     hackers for hackers.
+     ; \  `.; ;                    : : "+. ;    Therefore, we depend on
+     :  ;   ; ;                    : ;  : \:    your contributions.
+     ;  :   ; :                    ;:   ;  :
+    : \  ;  :  ;                  : ;  /  ::    You probably already know
+    ;  ; :   ; :                  ;   :   ;:    the rules:
+    :  :  ;  :  ;                : :  ;  : ;    + 7-bit ASCII
+    ;\    :   ; :                ; ;     ; ;    + English language
+    : `."-;   :  ;              :  ;    /  ;    + DO USE OUR PGP KEY BELOW
+     ;    -:   ; :              ;  : .-"   :    + AND DO INCLUDE THE
+     :\     \  :  ;            : \.-"      :      ANTISPAM KEYWORD
+      ;`.    \  ; :            ;.'_..--  / ;
+      :  "-.  "-:  ;          :/."      .'  :   Any subject could be
+       \         \ :          ;/  __        :   eligible. Please get in
+        \       .-`.\        /t-""  ":-+.   :   touch with us in case of
+         `.  .-"    `l    __/ /`. :  ; ; \  ;   questions.
+           \   .-" .-"-.-"  .' .'j \  /   ;/
+            \ / .-"   /.     .'.' ;_:'    ;
+             :-""-.`./-.'     /    `.___.'
+                   \ `t  ._  /
+                    "-.t-._:'
