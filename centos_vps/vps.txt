@@ -1,0 +1,60 @@
+9LdLgRTYY6wH
+27965
+sudo yum -y install gcc
+sudo yum install -y zlib-devel bzip2-devel openssl-devel ncurses-devel
+yum -y install epel-release && yum clean all
+#yum -y remove epel-release
+rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+yum install -y python36u python36u-libs python36u-devel python36u-pip
+
+yum -y install python-pip && yum clean all
+
+pip install --upgrade pip
+
+mkdir /etc/shadowsocks
+
+pip -y install shadowsocks
+
+
+yum install libsodium
+
+vi /etc/shadowsocks.json
+
+
+insert------esc-----:wq
+
+
+{
+    "server":"172.93.34.78",
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "port_password":{
+		"443":"8JVuAXqSJX",
+		"1033":"123321qwerty"},
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "fast_open": false, 
+    "workers": 1
+}
+
+
+
+
+vi /etc/systemd/system/shadowsocks-server.service
+[Unit]
+Description=Shadowsocks
+[Service]
+TimeoutStartSec=0
+ExecStart=/usr/bin/ssserver -c /etc/shadowsocks.json
+[Install]
+WantedBy=multi-user.target
+
+
+chmod +x /etc/systemd/system/shadowsocks.service
+systemctl enable shadowsocks
+systemctl start shadowsocks
+systemctl status shadowsocks -l
+
+
+ss-local -s 172.93.34.78 -p 443 -l 1080 -k 8JVuAXqSJX -m aes-256-cfb
